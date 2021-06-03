@@ -1,6 +1,6 @@
 .app {
   width: 100vw;
-  height: 200vh;
+  height: 100vh;
   background: var(--comp1-color);
 }
 
