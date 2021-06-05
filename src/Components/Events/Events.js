@@ -6,7 +6,9 @@ function Events() {
 
   return (
     <div>
-      <h1>Hello from Events</h1>
+      {events.map((event) => {
+        return <div>{/* event */}</div>;
+      })}
     </div>
   );
 }
