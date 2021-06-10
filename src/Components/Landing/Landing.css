@@ -1,0 +1,10 @@
+.sign-up-btn {
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(131, 75, 177);
+  color: white;
+  cursor: pointer;
+  font-size: 2em;
+}
