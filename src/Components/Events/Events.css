@@ -3,6 +3,7 @@
   height: 250px;
   background: var(--second-color);
   margin: 40px;
+  border-left: 7px solid var(--second-color);
 }
 
 .events-container {
@@ -14,4 +15,5 @@
 
 .event-title {
   font-size: 2em;
+  margin: 0.3em;
 }

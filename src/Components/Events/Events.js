@@ -1,11 +1,12 @@
 import './Events.css';
 import { useState } from 'react';
 import walkingEvent from '../../Images/walking-event.jpg';
+import event02 from '../../Images/landing-background.jpg';
 
 function Events() {
   const [events, setEvents] = useState([
     {
-      name: 'gymkana',
+      name: 'Gymkana',
       date: '21/09/1990',
       description: 'una gymkana',
       image: walkingEvent,
@@ -14,7 +15,7 @@ function Events() {
       name: 'gymkana',
       date: '21/09/1990',
       description: 'una gymkana',
-      image: '',
+      image: event02,
     },
     {
       name: 'gymkana',
