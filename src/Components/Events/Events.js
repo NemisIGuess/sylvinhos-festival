@@ -1,18 +1,87 @@
 import './Events.css';
 import { useState } from 'react';
+import walkingEvent from '../../Images/walking-event.jpg';
 
 function Events() {
-  const [events, setEvents] = useState([]);
+  const [events, setEvents] = useState([
+    {
+      name: 'gymkana',
+      date: '21/09/1990',
+      description: 'una gymkana',
+      image: walkingEvent,
+    },
+    {
+      name: 'gymkana',
+      date: '21/09/1990',
+      description: 'una gymkana',
+      image: '',
+    },
+    {
+      name: 'gymkana',
+      date: '21/09/1990',
+      description: 'una gymkana',
+      image: '',
+    },
+    {
+      name: 'gymkana',
+      date: '21/09/1990',
+      description: 'una gymkana',
+      image: '',
+    },
+    {
+      name: 'gymkana',
+      date: '21/09/1990',
+      description: 'una gymkana',
+      image: '',
+    },
+    {
+      name: 'gymkana',
+      date: '21/09/1990',
+      description: 'una gymkana',
+      image: '',
+    },
+    {
+      name: 'gymkana',
+      date: '21/09/1990',
+      description: 'una gymkana',
+      image: '',
+    },
+    {
+      name: 'gymkana',
+      date: '21/09/1990',
+      description: 'una gymkana',
+      image: '',
+    },
+    {
+      name: 'gymkana',
+      date: '21/09/1990',
+      description: 'una gymkana',
+      image: '',
+    },
+    {
+      name: 'gymkana',
+      date: '21/09/1990',
+      description: 'una gymkana',
+      image: '',
+    },
+  ]);
 
   return (
-    <div>
+    <div className="events-container">
       {events.map((event) => {
         return (
-          <div className="event-container">
-            <h3>Event name</h3>
-            <p>Event date</p>
-            <p>Event description</p>
-            {/* event: h1, image, description. If you click it opens a modal with the rest of the details */}
+          <div
+            className="event"
+            style={{
+              backgroundImage: `url(${event.image})`,
+              backgroundRepeat: 'no-repeat',
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+            }}
+          >
+            <h3 className="event-title">{event.name}</h3>
+            <p>{event.date}</p>
+            <p>{event.description}</p>
           </div>
         );
       })}

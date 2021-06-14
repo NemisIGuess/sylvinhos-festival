@@ -1,2 +1,17 @@
-.event-container {
+.event {
+  min-width: 300px;
+  height: 250px;
+  background: var(--second-color);
+  margin: 40px;
+}
+
+.events-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.event-title {
+  font-size: 2em;
 }
