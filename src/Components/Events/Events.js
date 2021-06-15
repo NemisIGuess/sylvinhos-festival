@@ -7,61 +7,61 @@ function Events() {
   const [events, setEvents] = useState([
     {
       name: 'Gymkana',
-      date: '21/09/1990',
+      date: 'Miercoles 15, 18:00',
       description: 'una gymkana',
       image: walkingEvent,
     },
     {
       name: 'gymkana',
-      date: '21/09/1990',
+      date: 'Miercoles 15, 18:00',
       description: 'una gymkana',
       image: event02,
     },
     {
       name: 'gymkana',
-      date: '21/09/1990',
+      date: 'Miercoles 15, 18:00',
       description: 'una gymkana',
       image: '',
     },
     {
       name: 'gymkana',
-      date: '21/09/1990',
+      date: 'Miercoles 15, 18:00',
       description: 'una gymkana',
       image: '',
     },
     {
       name: 'gymkana',
-      date: '21/09/1990',
+      date: 'Miercoles 15, 18:00',
       description: 'una gymkana',
       image: '',
     },
     {
       name: 'gymkana',
-      date: '21/09/1990',
+      date: 'Miercoles 15, 18:00',
       description: 'una gymkana',
       image: '',
     },
     {
       name: 'gymkana',
-      date: '21/09/1990',
+      date: 'Miercoles 15, 18:00',
       description: 'una gymkana',
       image: '',
     },
     {
       name: 'gymkana',
-      date: '21/09/1990',
+      date: 'Miercoles 15, 18:00',
       description: 'una gymkana',
       image: '',
     },
     {
       name: 'gymkana',
-      date: '21/09/1990',
+      date: 'Miercoles 15, 18:00',
       description: 'una gymkana',
       image: '',
     },
     {
       name: 'gymkana',
-      date: '21/09/1990',
+      date: 'Miercoles 15, 18:00',
       description: 'una gymkana',
       image: '',
     },
@@ -80,8 +80,8 @@ function Events() {
               backgroundPosition: 'center',
             }}
           >
-            <h3 className="event-title">{event.name}</h3>
             <p>{event.date}</p>
+            <h3 className="event-title">{event.name}</h3>
             <p>{event.description}</p>
           </div>
         );
