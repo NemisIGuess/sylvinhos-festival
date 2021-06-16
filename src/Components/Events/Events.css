@@ -4,6 +4,8 @@
   background: var(--second-color);
   margin: 40px;
   border-left: 7px solid var(--second-color);
+  display: grid;
+  grid-template-rows: 10% 25% 65%;
 }
 
 .events-container {
