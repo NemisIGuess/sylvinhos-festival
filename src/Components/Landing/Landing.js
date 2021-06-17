@@ -1,10 +1,15 @@
 import './Landing.css';
 
 function Landing() {
+  const clickHandler = () => {
+    alert('Hola caraculo');
+  };
+
   return (
     <div>
-      <h1>Hello from landing</h1>
-      <button className="sign-up-btn">Sign up!</button>
+      <button onClick={clickHandler} className="sign-up-btn">
+        Sign up!
+      </button>
       {/* There should be a logo, a button to sign up for the festival and the poster with the events of the festival. Include a link to socials */}
     </div>
   );
